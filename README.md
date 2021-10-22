@@ -17,7 +17,7 @@ You should have at least **docker** and **curl** installed.
 ```
 $ git clone https://github.com/virtapp/kubernetes-kind-environment-in-a-box
 $ cd kubernetes-kind-environment-in-a-box/
-$ ./main.sh --cluster-name demo
+$ ./install.sh --cluster-name demo
 ```
 
 That's it. It will download kind, kubectl and helm (if they don't exist yet) and build the whole thing.
