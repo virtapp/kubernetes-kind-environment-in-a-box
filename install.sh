@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-source _deps.sh
-source _tools.sh
+source dependency.sh
+source cli_tools.sh
 
 # -------------------------------TESTS----------------------------------------- #
 [ ! -x "$(which curl)" ] && {
